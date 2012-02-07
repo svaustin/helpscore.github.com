@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+# This is an RVM Project .rvmrc file, used to automatically load the ruby
+# development environment upon cd'ing into the directory
+
+# First we specify our desired <ruby>[@<gemset>], the @gemset name is optional.
+environment_id="ruby-1.9.3-p0@helpscore"
+
+# If the environment file has not yet been created, use the RVM CLI to select.
+rvm --create use "$environment_id"
+
+# Ensure that Bundler is installed. Install it if it is not.
+if ! command -v bundle >/dev/null; then
+printf "The rubygem 'bundler' is not installed. Installing it now.\n"
+gem install bundler
+fi
+
+

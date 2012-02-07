@@ -1,0 +1,82 @@
+#main {
+/*  #gradient > .vertical(@white, #e6f0ff, 60%);*/
+  #gradient > .vertical-three-colors(@white, @white, 40%, #e7f1ff);
+  
+  .container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .coming-soon {
+    position: absolute;
+    top: 0;
+    left: 8px;
+    width: 110px;
+    height: 127px;
+  }
+  
+  .logo-large {
+    margin: 60px auto 25px auto;
+    width: 476px;
+    height: 240px;
+  }
+  
+  .slogan {
+    font-size: 22px;
+    color: @blue;
+  }
+  
+  .signup {
+    margin: 70px auto 85px auto;
+    padding: 15px;
+    background-color: @blue;
+    .border-radius(8px);
+    width: 725px;
+    text-align: left;
+    
+    .title {
+      color: @white;
+      font-size: 20px;
+      padding-bottom: 12px;
+      text-shadow: 1px 1px 1px @grayDark;
+    }
+    
+    .form {
+      background-color: @white;
+      padding: 10px 10px 10px 0;
+      .border-radius(8px);
+    }
+    
+    form {
+      margin: 0;
+    }
+    
+    form input {
+      margin-bottom: 0;
+    }
+    
+    form input[type='email'] {
+      width: 315px;
+    }
+    
+    form input[type='text'] {
+      width: 143px;
+    }
+    
+    form input[type='text'], form input[type='email'] {
+      margin-left:10px;
+      background-color: #e3dfdf;
+      padding: 12px 22px;
+      font-size: 18px;
+      color: #747474;
+      .border-radius(5px);
+      border: none;
+    }
+
+    form input[type='submit'] {
+      margin-left: 10px;
+      height: 45px;
+      width: 129px;
+    }
+  }
+}

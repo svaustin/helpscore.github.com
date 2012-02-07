@@ -1,0 +1,29 @@
+// Core variables and mixins
+@import "../bootstrap/variables.less"; // Modify this for custom colors, font-sizes, etc
+@import "../bootstrap/mixins.less";
+
+// this is required for topbar padding
+body {
+  padding-top: 48px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+
+// and the rest of our goodness!
+@import "main.less";
+@import "homeowners.less";
+@import "partners.less";
+@import "professionals.less";
+@import "footer.less";
+
+// lists are consistent
+ul {
+  font-size: 17px;
+  line-height: auto;
+  margin-bottom: 55px;
+  list-style: disc url('../img/check-mark.png') outside;
+  color: @black;
+  
+  li {
+    padding: 0 0 15px 10px;
+    margin: 0 0 0 25px;
+  }
+}
