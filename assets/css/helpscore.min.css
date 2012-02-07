@@ -22,13 +22,13 @@ body{padding-top:48px;}
 #partners h3{color:#2c3f59;font-size:20px;margin:0;padding:0;line-height:20px;}
 #partners h4{color:#233b51;font-size:55px;margin:90px 0 40px 0;padding:0;line-height:55px;}
 #partners .span6{padding-left:30px;}
-#partners .contact-us{margin-bottom:20px;}#partners .contact-us input{height:48px;position:absolute;right:20px;width:148px;}
+#partners .contact-us{margin-bottom:20px;}#partners .contact-us input{height:48px;position:absolute;right:40px;width:148px;}
 #professionals{padding-top:90px;}#professionals .container{position:relative;min-height:720px;}
 #professionals h1{font-size:81px;line-height:81px;margin:0 0 10px 0;padding:0px;}
 #professionals h3{color:#919090;font-size:15px;margin:0;padding:0;line-height:auto;}
 #professionals h4{color:#2c3f59;font-size:22px;margin:0;margin-bottom:50px;padding:0;line-height:auto;}
 #professionals .person{width:347px;height:557px;position:absolute;bottom:0px;left:20px;}
-#professionals .features{margin:66px 20px 0 394px;}#professionals .features .signup{padding:15px;background-color:#1a75bb;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;width:545px;text-align:left;}#professionals .features .signup .title{color:#ffffff;font-size:20px;padding-bottom:12px;text-shadow:1px 1px 1px #333333;}
+#professionals .features{margin:66px 0 0 410px;}#professionals .features .signup{padding:15px;background-color:#1a75bb;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;width:545px;text-align:left;}#professionals .features .signup .title{color:#ffffff;font-size:20px;padding-bottom:12px;text-shadow:1px 1px 1px #333333;}
 #professionals .features .signup .form{background-color:#ffffff;padding:10px 10px 10px 0;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;}
 #professionals .features .signup form{margin:0;}
 #professionals .features .signup form input{margin-bottom:0;}
