@@ -1,7 +1,7 @@
 
 body{padding-top:48px;}
 #main{background-color:#fafcff;background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(40%, #ffffff), to(#e7f1ff));background-image:-webkit-linear-gradient(#ffffff, #ffffff 40%, #e7f1ff);background-image:-moz-linear-gradient(top, #ffffff, #ffffff 40%, #e7f1ff);background-image:-ms-linear-gradient(#ffffff, #ffffff 40%, #e7f1ff);background-image:-o-linear-gradient(#ffffff, #ffffff 40%, #e7f1ff);background-image:linear-gradient(#ffffff, #ffffff 40%, #e7f1ff);background-repeat:no-repeat;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e7f1ff', GradientType=0);}#main .container{position:relative;text-align:center;}
-#main .coming-soon{position:absolute;top:0;left:28px;width:110px;height:127px;}
+#main .coming-soon{position:absolute;top:6px;left:28px;width:110px;height:127px;}
 #main .logo-large{margin:60px auto 25px auto;width:476px;height:240px;}
 #main .slogan{font-size:22px;color:#1a75bb;}
 #main .signup{margin:70px auto 85px auto;padding:15px;background-color:#1a75bb;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;width:725px;text-align:left;}#main .signup .title{color:#ffffff;font-size:20px;padding-bottom:12px;text-shadow:1px 1px 1px #333333;}
