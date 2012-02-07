@@ -28,7 +28,7 @@
     height: 525px;
     position: absolute;
     top: 55px;
-    right: 25px;
+    right: 46px;
   }
   
   .features {
@@ -36,5 +36,44 @@
     background-image:url('../img/white-translucent.png');
     position:relative;
     z-index: 20;
+    padding: 20px 0 0;
+    
+    .item {
+      width: 222px;
+      margin-left: 26px;
+      float: left;
+
+      .photo-wrapper {
+        background-color: @white;
+        border: solid 1px @grayLighter;
+        .box-shadow(2px 3px 5px rgba(0,0,0,.25));
+        padding: 9px 10px 5px 10px;
+
+        img {
+          border: solid 1px @grayLighter;
+          width: 198px;
+          height: 158px;
+        }
+
+      }
+
+      h4 {
+        color: @blueDark;
+        font-size: 26px;
+        margin: 16px 0 10px 5px;
+        padding: 0;
+        line-height: 26px;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 19px;
+        margin: 0 0 0 5px;
+        padding: 0;
+        color: @black;
+      }
+    }
+
   }
+  
 }

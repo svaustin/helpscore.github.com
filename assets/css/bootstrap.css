@@ -350,7 +350,7 @@ h6 {
 .page-header {
   padding-bottom: 20px;
   margin: 21px 0;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #cacaca;
 }
 .page-header h1 {
   line-height: 1;
@@ -414,7 +414,7 @@ abbr {
 blockquote {
   padding: 0 0 0 15px;
   margin: 0 0 21px;
-  border-left: 5px solid #eeeeee;
+  border-left: 5px solid #cacaca;
 }
 blockquote p {
   margin-bottom: 0;
@@ -435,7 +435,7 @@ blockquote.pull-right {
   padding-left: 0;
   padding-right: 15px;
   border-left: 0;
-  border-right: 5px solid #eeeeee;
+  border-right: 5px solid #cacaca;
 }
 blockquote.pull-right p, blockquote.pull-right small {
   text-align: right;
@@ -1852,7 +1852,7 @@ button.btn.small, input[type="submit"].btn.small {
 }
 .nav > li > a:hover {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: #cacaca;
 }
 .nav-list {
   padding-left: 14px;
@@ -1921,7 +1921,7 @@ button.btn.small, input[type="submit"].btn.small {
   border-radius: 4px 4px 0 0;
 }
 .nav-tabs > li > a:hover {
-  border-color: #eeeeee #eeeeee #dddddd;
+  border-color: #cacaca #cacaca #dddddd;
 }
 .nav-tabs > .active > a, .nav-tabs > .active > a:hover {
   color: #555555;
@@ -2072,7 +2072,7 @@ button.btn.small, input[type="submit"].btn.small {
   border-radius: 4px 0 0 4px;
 }
 .tabs-left .nav-tabs > li > a:hover {
-  border-color: #eeeeee #dddddd #eeeeee #eeeeee;
+  border-color: #cacaca #dddddd #cacaca #cacaca;
 }
 .tabs-left .nav-tabs .active > a, .tabs-left .nav-tabs .active > a:hover {
   border-color: #ddd transparent #ddd #ddd;
@@ -2090,7 +2090,7 @@ button.btn.small, input[type="submit"].btn.small {
   border-radius: 0 4px 4px 0;
 }
 .tabs-right .nav-tabs > li > a:hover {
-  border-color: #eeeeee #eeeeee #eeeeee #dddddd;
+  border-color: #cacaca #cacaca #cacaca #dddddd;
 }
 .tabs-right .nav-tabs .active > a, .tabs-right .nav-tabs .active > a:hover {
   border-color: #ddd #ddd #ddd transparent;
@@ -2246,10 +2246,10 @@ button.btn.small, input[type="submit"].btn.small {
   transition: none;
 }
 .navbar-search .search-query :-moz-placeholder {
-  color: #eeeeee;
+  color: #cacaca;
 }
 .navbar-search .search-query::-webkit-input-placeholder {
-  color: #eeeeee;
+  color: #cacaca;
 }
 .navbar-search .search-query:hover {
   color: #ffffff;
