@@ -23,7 +23,7 @@ body {
 #main .coming-soon {
   position: absolute;
   top: 0;
-  left: 8px;
+  left: 28px;
   width: 110px;
   height: 127px;
 }
@@ -297,6 +297,9 @@ body {
 }
 span.connect_widget_summary, span.connect_widget_not_connected_text {
   color: #ffffff !important;
+}
+.container {
+  padding: 0 20px;
 }
 ul {
   font-size: 17px;
