@@ -287,6 +287,20 @@ body {
   height: 45px;
   width: 129px;
 }
+.terms, .privacy {
+  margin: 10px auto 20px;
+}
+.terms h1,
+.privacy h1,
+.terms h3,
+.privacy h3 {
+  margin: 0 0 10px 0;
+}
+.terms ul, .privacy ul {
+  list-style: disc outside none;
+  color: #555555;
+  margin-bottom: 0;
+}
 #footer {
   border-top: solid 6px #ffffff;
   height: 305px;
