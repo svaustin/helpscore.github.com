@@ -1,5 +1,5 @@
 body {
-  padding-top: 48px;
+  padding-top: 41px;
   /* 60px to make the container go all the way to the bottom of the topbar */
 
 }
@@ -22,7 +22,7 @@ body {
 }
 #main .coming-soon {
   position: absolute;
-  top: 6px;
+  top: 0px;
   left: 28px;
   width: 110px;
   height: 127px;
@@ -288,18 +288,22 @@ body {
   width: 129px;
 }
 .terms, .privacy {
-  margin: 10px auto 20px;
+  padding-top: 45px;
+}
+.terms .navbar .brand, .privacy .navbar .brand {
+  margin-top: 7px;
+  padding: 0 0 4px 0;
+  margin-left: 0;
+}
+.terms .container, .privacy .container {
+  /*margin: 10px auto 20px;*/
+
 }
 .terms h1,
 .privacy h1,
 .terms h3,
 .privacy h3 {
   margin: 0 0 10px 0;
-}
-.terms ul, .privacy ul {
-  list-style: disc outside none;
-  color: #555555;
-  margin-bottom: 0;
 }
 #footer {
   border-top: solid 6px #ffffff;
@@ -348,14 +352,26 @@ span.connect_widget_summary, span.connect_widget_not_connected_text {
 .container {
   padding: 0 20px;
 }
-ul {
+#professionals ul, #partners ul {
   font-size: 17px;
   line-height: auto;
   margin-bottom: 55px;
   list-style: disc url('../img/check-mark.png') outside;
   color: #000000;
 }
-ul li {
+#professionals ul li, #partners ul li {
   padding: 0 0 15px 10px;
   margin: 0 0 0 25px;
+}
+.navbar .brand {
+  margin-top: 7px;
+  padding: 0;
+  margin-left: 0;
+}
+.navbar .nav li a {
+  padding: 10px 10px 9px;
+}
+.navbar .nav .active a, .navbar .nav .active a:hover {
+  background-color: #195481;
+  border-bottom: 4px solid #8EBC04;
 }

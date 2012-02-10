@@ -4,7 +4,7 @@
 
 // this is required for topbar padding
 body {
-  padding-top: 48px; /* 60px to make the container go all the way to the bottom of the topbar */
+  padding-top: 41px; /* 60px to make the container go all the way to the bottom of the topbar */
 }
 
 // and the rest of our goodness!
@@ -20,7 +20,7 @@ body {
 }
 
 // lists are consistent
-ul {
+#professionals ul, #partners ul {
   font-size: 17px;
   line-height: auto;
   margin-bottom: 55px;
@@ -30,5 +30,27 @@ ul {
   li {
     padding: 0 0 15px 10px;
     margin: 0 0 0 25px;
+  }
+}
+
+.navbar {
+  .brand {
+    margin-top: 7px;
+    padding: 0;
+    margin-left: 0;
+  }
+
+  .nav {
+    li {
+      a {
+        padding: 10px 10px 9px;
+      }
+    }
+    .active {
+      a, a:hover {
+        background-color: #195481;
+        border-bottom: 4px solid #8EBC04;
+      }
+    }
   }
 }
