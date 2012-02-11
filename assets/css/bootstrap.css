@@ -96,7 +96,7 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: 'Arvo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 17px;
   line-height: 21px;
   color: #555555;
@@ -275,7 +275,7 @@ a:hover {
 }
 p {
   margin: 0 0 10.5px;
-  font-family: 'Arvo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 17px;
   line-height: 21px;
 }

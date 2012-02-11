@@ -4,6 +4,9 @@ npm install less -g
 # install connect
 npm install connect
 
+# install uglify-js
+npm install uglify-js
+
 # install the gems
 bundle
 
