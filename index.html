@@ -190,10 +190,13 @@
     </div>
     
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery.placeholder.min.js"></script>
     <script src="../assets/js/bootstrap-scrollspy.js"></script>
     <script>
       $(function() {
         $('body').scrollspy({offset: 150});
+        
+        $('input, textarea').placeholder();
       });
 
       // facebook
