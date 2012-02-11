@@ -30,14 +30,15 @@ body{padding-top:41px;}
 #professionals h3{color:#919090;font-size:15px;margin:0;padding:0;line-height:auto;}
 #professionals h4{color:#2c3f59;font-size:22px;margin:0;margin-bottom:50px;padding:0;line-height:auto;}
 #professionals .person{width:347px;height:557px;position:absolute;bottom:0px;left:20px;}
-#professionals .features{margin:66px 0 0 410px;}#professionals .features .signup{padding:15px;background-color:#1a75bb;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;width:545px;text-align:left;}#professionals .features .signup .title{color:#ffffff;font-size:20px;padding-bottom:12px;text-shadow:1px 1px 1px #333333;}
+#professionals .features{margin:66px 0 0 396px;}#professionals .features .signup{padding:15px;background-color:#1a75bb;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;width:575px;text-align:left;}#professionals .features .signup .title{color:#ffffff;font-size:20px;padding-bottom:12px;text-shadow:1px 1px 1px #333333;}
 #professionals .features .signup .form{background-color:#ffffff;padding:10px 10px 10px 0;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;}
 #professionals .features .signup form{margin:0;}
 #professionals .features .signup form input{margin-bottom:0;}
-#professionals .features .signup form input[type='email']{width:170px;}
-#professionals .features .signup form input[type='text']{width:108px;}
+#professionals .features .signup form input[type='email']{width:200px;}
 #professionals .features .signup form input[type='text'],#professionals .features .signup form input[type='email']{margin-left:10px;background-color:#e3dfdf;padding:12px 22px;font-size:18px;color:#747474;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:none;}
-#professionals .features .signup form input[type='submit']{margin-left:10px;height:45px;width:129px;}
+#professionals .features .signup form input.zip_code{width:77px;}
+#professionals .features .signup form input[name='PHONE']{width:114px;}
+#professionals .features .signup form input[type='submit']{margin:10px 0 0 216px;height:45px;width:129px;}
 .terms,.privacy{padding-top:45px;}.terms .navbar .brand,.privacy .navbar .brand{margin-top:7px;padding:0 0 4px 0;margin-left:0;}
 .terms .container,.privacy .container{}
 .terms h1,.privacy h1,.terms h3,.privacy h3{margin:0 0 10px 0;}
