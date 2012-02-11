@@ -180,6 +180,8 @@
           <span>Follow Us:</span>
           <a href="https://twitter.com/HelpScore" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @HelpScore</a><br />
           <div class="fb-like" data-href="http://www.facebook.com/pages/HelpScore/259357224124286" data-send="false" data-width="225" data-show-faces="false" data-font="tahoma" data-colorscheme="dark"></div>
+          <!-- Place this tag where you want the +1 button to render -->
+          <div><g:plusone annotation="inline" width="235" href="https://plus.google.com/u/0/b/106897671094260485031/"></g:plusone></div>
           <div class="clear"></div>
         </div>
         <h3>Bring HelpScore to your city! We come to where consumers need us.</h3>
@@ -198,6 +200,14 @@
         
         $('input, textarea').placeholder();
       });
+      
+      // google+
+      <!-- Place this render call where appropriate -->
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
 
       // facebook
       (function(d, s, id) {
